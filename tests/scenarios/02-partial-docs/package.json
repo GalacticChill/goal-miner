@@ -1,0 +1,10 @@
+{
+  "name": "mdlinks",
+  "version": "0.1.0",
+  "description": "Find broken links in Markdown files",
+  "bin": { "mdlinks": "src/cli.js" },
+  "scripts": { "test": "jest" },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "jest": "^29.7.0" },
+  "license": "MIT"
+}
