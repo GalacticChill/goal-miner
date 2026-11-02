@@ -1,0 +1,11 @@
+{
+  "name": "goal-miner",
+  "owner": { "name": "Etienne Pema Lafleur" },
+  "plugins": [
+    {
+      "name": "goal-miner",
+      "source": "./",
+      "description": "Turn a vague project idea into a verifiable Definition of Done (GOAL.md)."
+    }
+  ]
+}

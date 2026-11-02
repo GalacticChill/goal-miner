@@ -2,7 +2,7 @@
 # Runs check_goal.sh against every fixture and checks exit code + expected message.
 set -u
 here="$(cd "$(dirname "$0")" && pwd)"
-check="$here/../.claude/skills/goal-miner/scripts/check_goal.sh"
+check="$here/../skills/goal-miner/scripts/check_goal.sh"
 pass=0; fail=0
 
 expect() { # fixture expected_exit expected_substring

@@ -1,0 +1,17 @@
+{
+  "name": "goal-miner",
+  "version": "1.0.0",
+  "description": "Turn a vague project idea into a verifiable Definition of Done (GOAL.md) before any code is written; amend it when scope changes and verify against it.",
+  "author": {
+    "name": "Etienne Pema Lafleur"
+  },
+  "homepage": "https://github.com/GalacticChill/goal-miner",
+  "repository": "https://github.com/GalacticChill/goal-miner",
+  "license": "MIT",
+  "keywords": [
+    "requirements",
+    "definition-of-done",
+    "planning",
+    "acceptance-criteria"
+  ]
+}

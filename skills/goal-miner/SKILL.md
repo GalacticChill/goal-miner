@@ -58,7 +58,7 @@ An empty repo is a valid result. Say so and move on.
 
 ### Phase 2: Research (delegate it)
 
-Spawn the `goal-researcher` subagent with the Agent tool (`subagent_type: "goal-researcher"`). Give it a self-contained brief:
+Spawn the `goal-researcher` subagent with the Agent tool (`subagent_type: "goal-researcher"`, or `"goal-miner:goal-researcher"` when installed as a plugin — use whichever appears in your agent list). Give it a self-contained brief:
 - the idea, verbatim
 - the known facts from Phase 1
 - the 3–6 most important unknowns

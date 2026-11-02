@@ -9,7 +9,7 @@ target="${2:-${TMPDIR:-/tmp}/goal-miner-$name}"
 [ -d "$here/$name" ] || { echo "no such scenario: $name"; exit 1; }
 rm -rf "$target"; mkdir -p "$target/.claude"
 cp -R "$here/$name/." "$target/"
-cp -R "$root/.claude/skills" "$root/.claude/agents" "$target/.claude/"
+cp -R "$root/skills" "$root/agents" "$target/.claude/"
 cd "$target"
 git init -q && git add -A && git commit -qm "scenario seed: $name"
 echo "Ready: $target"
